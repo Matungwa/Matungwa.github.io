@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesheet7.css">
+    <script src="alumni.js"></script>
+    <title>alumni page</title>
+</head>
+<body>
+    <h5>
+        <a href="index.html">LANDPAGE</a>
+        <a href="home.html">HOME</a>
+        <a href="about.html">ABOUT</a>
+        <a href="register.html">REGISTER</a>
+        <a href="staff.html">STAFF</a>
+        <a href="contacts.html">CONTACTS</a>
+        </h5>
+    <form method="POST" action="alumni.php">
+    <div class="container">
+        <h1>KEPIER SECONDARY SCHOOL</h1> 
+        <h3>Believe In You.</h3></div>
+    </div class="box" >
+    <div>
+    <h1>ALUMNI FORM</h1>
+    <label>Alumni's name: </label>
+    <input type="text" name="aname" id="aname" placeholder="Alumni's name" required ><br>
+    <label>Year of enrollment: </label>
+    <input type="text" name="yoe" id="yoe" placeholder="Year of enrollment" required><br>
+    <label>Year of graduation: </label>
+    <input type="text" name="yog" id="yog" placeholder="Year of Graduation" required ><br>
+    <label>Your address: </label>
+    <input type="text" name="add" id="add" placeholder="Your Address" required ><br>
+    <label>Email: </label>
+    <input type="email" name="email" id="email" placeholder="Your Email" required  ><br>
+    <label>Mobile number: </label>
+    <input type="tel" name="tel" id="tel" placeholder="Mobile number" required ><br>
+    <label>Headmaster: </label>
+    <input type="text" name="hmatt" id="hmatt" placeholder="headmaster" required >
+    <P>Please choose and write from the options below.</P>
+    <p>1. Mr.Evans</p>
+    <p>2. Mr.Eric</p>
+    <label>Famous teacher: </label>
+    <input type="text" name="ftatt" id="ftatt" placeholder="famousteacher" required >
+    <P>Please choose and write from the options below.</P>
+    <p>1. Mr.Mella</p>
+    <p>2. Ms.Stella</p>
+    <label>Your occupation: </label>
+    <input type="text" name="os" id="os" placeholder="Your current occupation" required>
+        <p>Results summary:
+        <label>DIV I</label>
+        <input type="radio" id="div1" name="divi" placeholder="_"  >
+        <label>DIV II</label>
+        <input type="radio" id="div2" name="divi" placeholder="_"  >
+        <label>DIV III</label>
+        <input type="radio" id="div3" name="divi" placeholder="_"  ><br>
+                </p>
+     <button type="submit" class="registerbtn" onclick="checkemail();checkname();checkoccupation()";>REGISTER</button>
+    </div>
+    </div>
+</form>
+        <footer>
+        Copyright © KeiperSchools.com
+        </footer>
+</body>
+</html>

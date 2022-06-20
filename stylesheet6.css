@@ -1,0 +1,95 @@
+* {box-sizing: border-box}
+body{
+    background-color: lightblue;
+}
+
+.container {
+  padding: 16px;
+}
+
+input[type=text], input[type=password], input[type=email], input[type=date], input[type=tel] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+  border-radius: 20px;
+}
+footer {
+  background-color:rgb(39, 141, 172);
+  color:white;
+  clear:both;
+  text-align:center;
+  padding:5px; 
+  width:200vh;
+
+}
+h5{
+  color: azure;
+  background-color: #f1f1f1;
+  padding: 20px;
+  margin-bottom: 0px;
+  width: auto;
+}
+a{
+color: rgb(255, 255, 255);
+padding: 5px 20px;
+font-size: large;
+}  
+
+a:hover{
+  color: rgb(35, 88, 86);
+  background-color: rgb(157, 199, 196);
+}
+
+b{
+  font-family: poppins;
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+.registerbtn {
+  background-color: rgb(38, 68, 68);
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.registerbtn:hover {
+  opacity:17;
+}
+
+a {
+  color: dodgerblue;
+}
+
+.signin {
+  background-color: #f1f1f1;
+  text-align: center;
+}
+.container1{
+    background-color:cadetblue ;
+    width: 200vh;
+    height:15vh;
+}
+h1{
+    font-weight: bolder;
+    font-family: 'verdana';
+    text-align: center;
+    font-size: xx-large;
+    color: rgb(0, 59, 81);
+}
+h3{
+    font-weight:bold;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(0, 59, 81);
+}

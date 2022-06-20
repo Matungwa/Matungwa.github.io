@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesheet9.css">
+    <title>sign in page</title>
+    <script>
+      function checkpsw(){
+  var pw = document.getElementById("pword").value;
+  var upperCaseLetters = /[A-Z]/g;
+  var numbers = /[0-9]/g;
+  var lowerCaseLetters = /[a-z]/g; 
+  var specialcharacters= / /g;  
+  if(pw == "") {  
+     alert('please fill in the password');  
+     return alert;  
+  } 
+  if(!(/[`!@#$%^&*()_+\-=\[\]{};':"\\|,.<>\/?~]/).test(psw.value)){
+    alert('password should contain special characters');
+    return false;
+    }   
+   if(!upperCaseLetters.test(psw.value)){
+   alert('password should contain uppercase letters');
+   return false;
+   }  
+
+   if(!lowerCaseLetters.test(psw.value)){
+    alert('password should contain lowercase letters');
+    return false;
+    } 
+
+    if(!numbers.test(psw.value)){
+      alert('password should contain numbers');
+      return false;
+      } 
+
+  if(pw.length < 8) {  
+     alert('more than 8 characters required');
+     return alert;  
+  }  
+}
+function checkusername(){
+  var unem = document.getElementById("uname").value;
+  if(unem == "") {  
+     alert('please fill in the username');  
+     return alert;  
+  } 
+}
+function check(form){
+  if(form.uname.value=="Username" && form.pword.value=="Password"){
+    window.localStorage.setItem("Sign in","true");
+    window.open('alumni.html','_self');
+  }
+}
+    </script>
+</head>
+<body>
+    <form  method="post">
+      <h5>
+        <a href="index.html">LANDPAGE</a>
+        <a href="about.html">ABOUT</a>
+        <a href="alumnireq.html">ALUMNI</a>
+        <a href="register.html">REGISTER</a>
+        <a href="staff.html">STAFF</a>
+        <a href="contacts.html">CONTACTS</a>
+        </h5>
+      
+        <div class="container">
+            <h1>KEPIER SECONDARY SCHOOL</h1> 
+            <h3>Believe In You.</h3>
+            <br>
+        <p>Please Signin into your account to access this page.</p>
+        <div class="box">
+
+        <div class="img">
+          <img src="C:\Users\SILVA\OneDrive\Pictures\signup.jpg" alt="Avatar" class="avatar">
+        </div>
+      <div>
+          <label for="uname"><b>Username:</b></label>
+          <input type="text" placeholder="Enter Username" name="uname" id="uname" required><br>
+      
+          <label for="psw"><b>Password:</b></label>
+          <input type="password" placeholder="Enter Password" id="pword" name="psw" required><br>
+      
+          <label>
+            <input type="checkbox" checked="checked" name="remember"> Remember me
+          </label><br>
+          <br>
+          <button type="submit" id="button" value="Sign_in" onclick="checkusername();checkpsw()" onclick="check(this.form)"; ><a href="alumni.html" id="link">Sign in</a></button><br>
+      </div>
+        </div>
+      
+      </form>
+</body>
+</html>

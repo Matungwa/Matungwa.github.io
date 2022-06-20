@@ -1,0 +1,77 @@
+.container{
+    background-color:cadetblue ;
+    width: 204.9vh;
+    height:15vh;
+}
+body{
+    background-color: lightblue;
+    text-align: center;
+}
+h1{
+    font-weight: bolder;
+    font-family: 'verdana';
+    text-align: center;
+    font-size: xx-large;
+    color: rgb(0, 24, 33);
+}
+img{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 120px;
+    height: 120px;
+}
+h3{
+    font-weight:bold;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(2, 22, 30);
+}
+footer {
+    background-color:rgb(39, 141, 172);
+    color:white;
+    clear:both;
+    text-align:center;
+    padding:5px; 
+    width:203.5vh;}
+
+#pword, #uname{
+        padding:10px;
+        height: 10px;
+        background:transparent ;
+        border-bottom: 1px solid white ;
+        width: 170px;
+        font-weight: bold;
+        border-top: none;
+        border-left: none;
+        border-right:none ;
+        margin-bottom: 20px;
+        
+    }
+    h5{
+        color: azure;
+        background-color: #f1f1f1;
+        padding: 20px;
+        margin-bottom: 0px;
+        width: auto;
+      }
+      a{
+      color: rgb(8, 71, 57);
+      padding: 5px 20px;
+      font-size: large;
+      }  
+      
+      a:hover{
+        color: rgb(35, 88, 86);
+        background-color: rgb(157, 199, 196);
+      }
+      
+  #button{
+    
+    height: 20px;
+    width: 75px;
+    border-radius: 20px;
+    color: darkslategray;
+    background-color: whitesmoke;
+    border: transparent;
+  }
+

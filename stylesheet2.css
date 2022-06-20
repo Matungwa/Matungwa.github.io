@@ -1,0 +1,62 @@
+body{
+    background-image: url("https://img.freepik.com/free-vector/watercolor-nature-background-with-leaves_52683-59449.jpg?w=2000");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h5{
+    color: azure;
+    background: cadetblue;
+    padding: 20px;
+  }
+  a{
+color: rgb(255, 255, 255);
+padding: 5px 20px;
+font-size: large;
+  }  
+
+a:hover{
+    color: rgb(35, 88, 86);
+    background-color: rgb(157, 199, 196);
+}
+
+.container{
+    background-color:cadetblue ;
+    width: 205vh;
+    height:15vh;
+}
+img{
+    width: 19px;
+    height: 19px;
+}
+h1{
+    font-weight: bolder;
+    font-family: 'verdana';
+    text-align: center;
+    font-size: xx-large;
+    color: rgb(4, 1, 16);
+}
+h3{
+    font-weight:bold;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(1, 8, 30);
+}
+div.sect1 {
+    background-color:rgb(169, 155, 115);
+    color:white;
+    margin:20px;
+    padding:20px;
+    border-radius: 5px;
+} 
+footer {
+    background-color:rgb(39, 141, 172);
+    color:white;
+    clear:both;
+    text-align:center;
+    padding:5px; 
+}
+p{
+    text-align: center;
+    font-family: Verdana;
+    font-size: large;
+}
